@@ -1,72 +1,132 @@
-# Arduino Simple Weighing and Calibration System
+## 💰 Support My Work
 
-This repository contains Arduino code for implementing a simple weighing system with calibration functionality. The project is designed to work with load cells and provides both calibration and weighing capabilities.
+If you find this project helpful and want to support my work, you can contribute through:
 
-## Project Structure
+### 💎 Crypto Donations
+| ![Tether](https://img.shields.io/badge/Tether-50AF95?style=for-the-badge&logo=tether&logoColor=white) | 
+|:---:|
+| `THaG7n6AdFADW5fqVWBe45uD1xTBiyWd3r` |
+| USDT (TRC20 Network) |
 
-The project is organized into two main components:
 
-- `calibration/` - Contains the calibration sketch for setting up the load cell
-- `simple_weighing/` - Contains the main weighing system implementation
+### Buy Me a Coffee
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/hexcode64319)
 
-## Features
+# 🏗️ Arduino Simple Weighing and Calibration System
 
-- Load cell calibration functionality
-- Simple weighing system
-- Digital weight measurements
-- Easy-to-use interface
+[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![HX711](https://img.shields.io/badge/HX711-Supported-green.svg)](https://github.com/bogde/HX711)
 
-## Hardware Requirements
+<div align="center">
+  <img src="https://raw.githubusercontent.com/wiki/bogde/HX711/hx711-connection-diagram.jpg" width="400" alt="HX711 Connection Diagram"/>
+</div>
 
-- Arduino board (e.g., Arduino Uno, Nano, or similar)
-- HX711 load cell amplifier
-- Load cell sensor
-- LCD display (optional for visual output)
-- Connecting wires
+## 📝 Description
 
-## Software Dependencies
+This repository contains Arduino code for implementing a professional weighing system with calibration functionality. The project is designed to work with load cells and provides both calibration and weighing capabilities, making it perfect for DIY scales and industrial applications.
 
-- [HX711 Arduino Library](https://github.com/bogde/HX711)
-- Arduino IDE
+## 🌟 Key Features
 
-## Setup Instructions
+- ⚖️ Precise load cell calibration
+- 📊 Digital weight measurements
+- 🔄 Real-time weight monitoring
+- 📱 User-friendly interface
+- 💾 Persistent calibration storage
+- 🛠️ Easy setup and configuration
 
-1. Connect the load cell to the HX711 amplifier
-2. Wire the HX711 to your Arduino:
-   - VCC to 5V
-   - GND to GND
-   - DT to digital pin (specified in code)
-   - SCK to digital pin (specified in code)
+## 📁 Project Structure
 
-3. Install the required libraries through Arduino IDE
-4. Upload the calibration sketch first to calibrate your load cell
-5. Once calibrated, upload the simple_weighing sketch for regular use
+```
+arduino-weighing-system/
+├── calibration/
+│   └── calibration.ino      # Calibration setup sketch
+└── simple_weighing/
+    └── simple_weighing.ino  # Main weighing system
+```
 
-## Usage
+## 🔧 Hardware Requirements
 
-### Calibration Mode
-1. Upload the calibration sketch
-2. Follow the serial monitor instructions
-3. Place known weights on the load cell
-4. Note down the calibration factor
+Component | Purpose
+----------|----------
+Arduino Board | Main controller (Uno/Nano recommended)
+HX711 Module | Load cell amplifier
+Load Cell | Weight sensor (max 5kg/10kg/20kg)
+LCD Display | Optional for visual output
+Jumper Wires | For connections
 
-### Weighing Mode
-1. Update the calibration factor in the simple_weighing sketch
-2. Upload the sketch
-3. Place items on the load cell to measure their weight
+## 📥 Software Dependencies
 
-## Contributing
+- [Arduino IDE](https://www.arduino.cc/en/software) (v1.8.x or newer)
+- [HX711 Arduino Library](https://github.com/bogde/HX711) (Latest version)
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🔌 Wiring Diagram
 
-## License
+HX711 Pin | Arduino Pin
+----------|------------
+VCC | 5V
+GND | GND
+DT  | Digital Pin 2*
+SCK | Digital Pin 3*
 
-This project is open source and available under the MIT License.
+*Pins can be configured in the code
 
-## Credits
+## 📋 Setup Guide
 
-Created and maintained by [Cracked-oss](https://github.com/Cracked-oss)
+1. **Hardware Assembly**
+   - Connect load cell to HX711 following the color codes
+   - Wire HX711 to Arduino according to the table above
+   - Power up the system
 
-## Support
+2. **Software Setup**
+   ```bash
+   1. Install Arduino IDE
+   2. Install HX711 library
+   3. Upload calibration sketch
+   4. Follow calibration procedure
+   ```
 
-For issues, questions, or contributions, please open an issue in the GitHub repository.
+## 🎯 Usage Instructions
+
+### 🔍 Calibration Mode
+1. Load the calibration sketch
+2. Open Serial Monitor (9600 baud)
+3. Follow on-screen instructions
+4. Save your calibration factor
+
+### ⚖️ Weighing Mode
+1. Input calibration factor
+2. Upload weighing sketch
+3. Begin measurements
+4. Monitor through Serial/LCD
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Credits
+
+Created with ❤️ by [Cracked-oss](https://github.com/Cracked-oss)
+
+## 🆘 Support
+
+Need help? We're here for you!
+
+- 📫 Open an [Issue](../../issues)
+- 💬 Start a [Discussion](../../discussions)
+- 📝 Check our [Wiki](../../wiki)
+
+---
+<div align="center">
+Made with 🛠️ and passion for the Arduino community
+</div>
