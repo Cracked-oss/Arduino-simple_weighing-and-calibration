@@ -19,7 +19,7 @@ If you find this project helpful and want to support my work, you can contribute
 [![HX711](https://img.shields.io/badge/HX711-Supported-green.svg)](https://github.com/bogde/HX711)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/wiki/bogde/HX711/hx711-connection-diagram.jpg" width="400" alt="HX711 Connection Diagram"/>
+  <img src="https://i0.wp.com/circuits4you.com/wp-content/uploads/2016/11/Load_Cell_Interface_Arduino.png?resize=768%2C476&ssl=1" width="400" alt="HX711 Connection Diagram"/>
 </div>
 
 ## 📝 Description
@@ -110,10 +110,6 @@ We welcome contributions! Here's how you can help:
 4. Push to the branch
 5. Open a Pull Request
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Credits
 
 Created with ❤️ by [Cracked-oss](https://github.com/Cracked-oss)
@@ -122,9 +118,9 @@ Created with ❤️ by [Cracked-oss](https://github.com/Cracked-oss)
 
 Need help? We're here for you!
 
-- 📫 Open an [Issue](../../issues)
-- 💬 Start a [Discussion](../../discussions)
-- 📝 Check our [Wiki](../../wiki)
+## 📫 Connect With Me
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Hex_Code)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/hexcode.832203/)
 
 ---
 <div align="center">
