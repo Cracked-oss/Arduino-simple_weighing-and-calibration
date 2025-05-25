@@ -20,6 +20,7 @@ If you find this project helpful and want to support my work, you can contribute
 
 <div align="center">
   <img src="https://i0.wp.com/circuits4you.com/wp-content/uploads/2016/11/Load_Cell_Interface_Arduino.png?resize=768%2C476&ssl=1" width="400" alt="HX711 Connection Diagram"/>
+  <p><em>HX711 Connection Diagram</em></p>
 </div>
 
 ## 📝 Description
